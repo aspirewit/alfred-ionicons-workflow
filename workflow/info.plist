@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.ruedap.font-awesome</string>
+	<string>com.aspirewit.ionicons</string>
 	<key>connections</key>
 	<dict>
 		<key>06116C11-3F9B-438E-A515-7D3CA35574BE</key>
@@ -87,13 +87,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>@ruedap</string>
+	<string>aspirewit</string>
 	<key>description</key>
-	<string>Search through Font Awesome icons</string>
+	<string>Search through Ionic Icons</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Font Awesome 4.6.3.0</string>
+	<string>Ionicons</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -123,7 +123,7 @@
 				<key>escaping</key>
 				<integer>62</integer>
 				<key>keyword</key>
-				<string>fa</string>
+				<string>ion</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -137,9 +137,9 @@
 				<key>script</key>
 				<string>./faw find {query}</string>
 				<key>subtext</key>
-				<string>Font Awesome Workflow</string>
+				<string>Ionic Icons Workflow</string>
 				<key>title</key>
-				<string>Search through Font Awesome Icons</string>
+				<string>Search through Ionic Icons</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -245,7 +245,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>https://github.com/ruedap/alfred-font-awesome-workflow</string>
+	<string>https://github.com/aspirewit/alfred-ionicons-workflow</string>
 	<key>uidata</key>
 	<dict>
 		<key>06116C11-3F9B-438E-A515-7D3CA35574BE</key>
@@ -285,6 +285,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>https://github.com/ruedap/alfred-font-awesome-workflow</string>
+	<string>https://github.com/aspirewit/alfred-ionicons-workflow</string>
 </dict>
 </plist>

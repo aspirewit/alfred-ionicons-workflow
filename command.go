@@ -31,12 +31,12 @@ func (cmd *command) find(terms []string) int {
 
 	for _, icon := range icons {
 		r.AddItem(&alfred.ResponseItem{
-			Valid:    true,
-			UID:      icon.Unicode,
-			Title:    icon.ID,
-			Subtitle: "Paste class name: fa-" + icon.ID,
-			Arg:      icon.Unicode,
-			Icon:     "./icons/fa-" + icon.ID + ".png",
+			Valid:	true,
+			UID:	  icon.Unicode,
+			Title:	icon.ID,
+			Subtitle: "Paste class name: ion-" + icon.ID,
+			Arg:	  icon.Unicode,
+			Icon:	 "./icons/" + icon.ID + ".png",
 			Extra: map[string]string{
 				"Unicode": icon.Unicode,
 			},
@@ -70,7 +70,7 @@ func (cmd *command) put(flags map[string]string) int {
 	switch {
 	case name != "":
 		icon := ics.findByUnicode(name)[0]
-		_, err = fmt.Fprint(ost, "fa-"+icon.ID)
+		_, err = fmt.Fprint(ost, "ion-"+icon.ID)
 	case code != "":
 		icon := ics.findByUnicode(code)[0]
 		_, err = fmt.Fprint(ost, icon.Unicode)
@@ -80,7 +80,7 @@ func (cmd *command) put(flags map[string]string) int {
 		_, err = fmt.Fprint(ost, str)
 	case url != "":
 		icon := ics.findByUnicode(url)[0]
-		_, err = fmt.Fprint(ost, "http://fontawesome.io/icon/"+icon.ID+"/")
+		_, err = fmt.Fprint(ost, "http://ionicons.com/#" + icon.Name)
 	default:
 		err = errors.New("invalid flag argument")
 	}
@@ -94,7 +94,7 @@ func (cmd *command) put(flags map[string]string) int {
 func errorXML(err error) string {
 	return alfred.ErrorXML(
 		"Error: "+err.Error(),
-		"Font Awesome Workflow",
+		"Ionic Icons Workflow",
 		"Error: "+err.Error(),
 	)
 }

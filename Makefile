@@ -1,7 +1,7 @@
 DEPS = $(shell go list -f '{{range .TestImports}}{{.}} {{end}}' ./...)
 MAKEFILE_DIR = $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 WORKFLOW_DIR = ~/Dropbox/Alfred/Alfred.alfredpreferences/workflows
-BUNDLE_ID = com.ruedap.font-awesome
+BUNDLE_ID = com.aspirewit.ionicons
 FAW_CLI_CMD = FAW_ICONS_YAML_PATH=workflow/icons.yml ./workflow/faw
 
 default: build cli test
@@ -10,15 +10,15 @@ ci: deps build cli coveralls
 
 cli:
 	@echo "--> Running CLI commands"
-	@$(FAW_CLI_CMD) find plus
+	@$(FAW_CLI_CMD) find ionic
 	@echo
-	@$(FAW_CLI_CMD) put -name f067
+	@$(FAW_CLI_CMD) put -name f14b
 	@echo
-	@$(FAW_CLI_CMD) put -code f067
+	@$(FAW_CLI_CMD) put -code f14b
 	@echo
-	@$(FAW_CLI_CMD) put -ref f067
+	@$(FAW_CLI_CMD) put -ref f14b
 	@echo
-	@$(FAW_CLI_CMD) put -url f067
+	@$(FAW_CLI_CMD) put -url f14b
 	@echo
 
 coveralls:

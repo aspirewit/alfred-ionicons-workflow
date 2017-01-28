@@ -16,9 +16,9 @@ func newApp() *cli.App {
 	app := cli.NewApp()
 	app.Name = "faw"
 	app.Version = version
-	app.Usage = "Font Awesome Workflow for Alfred"
-	app.Author = "ruedap"
-	app.Email = "ruedap@ruedap.com"
+	app.Usage = "Ionic Icons Workflow for Alfred"
+	app.Author = "aspirewit"
+	app.Email = "aspirewit@gmail.com"
 	app.Commands = commands
 	return app
 }

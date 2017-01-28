@@ -13,7 +13,7 @@ var commands = []cli.Command{
 
 var commandsFind = cli.Command{
 	Name:  "find",
-	Usage: "Search through Font Awesome icons",
+	Usage: "Search through Ionic Icons",
 	Action: func(c *cli.Context) {
 		cmd := &command{outStream: os.Stdout, errStream: os.Stderr}
 		cmd.find(c.Args())
