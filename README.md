@@ -20,8 +20,9 @@ The current version is **Ionicons 2.0.1** support.
 * `Shift + Enter`: Paste character code (e.g. `f14b`)
 * `Command + Enter`: Open in browser (e.g. <http://ionicons.com/#ionic>)
 
+Learn More: [alfred-font-awesome-workflow](https://github.com/ruedap/alfred-font-awesome-workflow/blob/master/README.md)
+
 
 ## License
-[ruedap/alfred-font-awesome-workflow](https://ruedap.mit-license.org/2015)
-
-[aspirewit/alfred-ionicons-workflow](https://github.com/aspirewit/alfred-ionicons-workflow/raw/master/LICENSE)
+[ruedap/alfred-font-awesome-workflow](https://ruedap.mit-license.org/2015)  
+[aspirewit/alfred-ionicons-workflow](https://github.com/aspirewit/alfred-ionicons-workflow/blob/master/LICENSE)
