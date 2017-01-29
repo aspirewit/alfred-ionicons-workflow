@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"html"
+	"regexp"
 	"io"
 	"strings"
 
@@ -80,7 +81,8 @@ func (cmd *command) put(flags map[string]string) int {
 		_, err = fmt.Fprint(ost, str)
 	case url != "":
 		icon := ics.findByUnicode(url)[0]
-		_, err = fmt.Fprint(ost, "http://ionicons.com/#" + icon.Name)
+		escapedName := regexp.MustCompile(`\s+`).ReplaceAllString(icon.Name, "%20")
+		_, err = fmt.Fprint(ost, "http://ionicons.com/#" + escapedName)
 	default:
 		err = errors.New("invalid flag argument")
 	}
