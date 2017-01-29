@@ -18,7 +18,7 @@ The current version is **Ionicons 2.0.1** support.
 * `Enter`: Paste class name (**for coding HTML/CSS**. e.g. `ion-ionic`)
 * `Ctrl + Enter`: Paste character reference (**for designing in Photoshop, Illustrator, etc**)
 * `Shift + Enter`: Paste character code (e.g. `f14b`)
-* `Command + Enter`: Open in browser (e.g. <http://ionicons.com/#ionic>)
+* `Command + Enter`: Open in browser (e.g. <http://ionicons.com/#Ionic>)
 
 Learn More: [alfred-font-awesome-workflow](https://github.com/ruedap/alfred-font-awesome-workflow/blob/master/README.md)
 
