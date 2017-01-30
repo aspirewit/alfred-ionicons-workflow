@@ -5,7 +5,8 @@ You can incremental search for [Ionicons](http://ionicons.com/) and paste it to 
 #### :pencil: for coding HTML/CSS
 ![screencast.gif](https://github.com/aspirewit/alfred-ionicons-workflow/raw/master/screenshots/screencast.gif)
 
-#### :art: for designing in Sketch 3, Photoshop, Illustrator, Keynote, etc
+#### :art: for designing in Sketch, Photoshop, Illustrator, Keynote, etc
+[Download Ionicons Font](https://github.com/driftyco/ionicons/tree/master/fonts)
 ![screencast-sketch.gif](https://github.com/aspirewit/alfred-ionicons-workflow/raw/master/screenshots/screencast-sketch.gif)
 
 
@@ -21,7 +22,7 @@ The current version is **Ionicons 2.0.1** support.
 **Keyword** `ion`: Search through [Ionicons](http://ionicons.com/).
 
 * `Enter`: Paste class name (**for coding HTML/CSS**. e.g. `ion-ionic`)
-* `Ctrl + Enter`: Paste character reference (**for designing in Sketch, Photoshop, Illustrator, etc**)
+* `Ctrl + Enter`: Paste character reference (**for designing in Sketch, Photoshop, Illustrator, Keynote, etc**)
 * `Shift + Enter`: Paste character code (e.g. `f14b`)
 * `Command + Enter`: Open in browser (e.g. <http://ionicons.com/#Ionic>)
 
