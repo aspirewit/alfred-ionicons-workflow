@@ -62,5 +62,5 @@ Released under the MIT license.
 
 ## Authors
 
-<a href="https://github.com/ruedap"><img src="https://dl.dropboxusercontent.com/u/281168/images/github-ruedap-avatar-1500x1500.png" alt="ruedap" title="ruedap" width="100" height="100"></a>
-<a href="https://github.com/aspirewit"><img src="https://avatars0.githubusercontent.com/u/9118112?v=3&s=460" alt="aspirewit" title="aspirewit" width="100" height="100"></a>
+* [ruedap](https://github.com/ruedap)
+* [aspirewit](https://github.com/aspirewit)
